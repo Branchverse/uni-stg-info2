@@ -45,3 +45,11 @@ int main()
   string text = getBMI_text(bmi);
   cout << text << endl;
 }
+
+/* Resulting Dialog
+
+Please give me your weight in kg: 42
+Please give me your height in meters (e.g. 1.8): 0.69
+Your BMI is 88.2168
+Bro what?
+*/
