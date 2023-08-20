@@ -7,10 +7,10 @@ int main()
 {
   // Variables
   double weight, height, bmi;
-  string category;
+  string category; // This is very similar to a char array, but it's without length limitation
 
   // Input
-  printf("Please give me your weight in kg: ");
+  printf("Please give me your weight in kg: "); // printf is similar to cout from <cstdio>, this is just an example, the other files will stay with cout. It has some capabilities like filling in variables
   cin >> weight;
   printf("Please give me your height in meters (e.g. 1.8): ");
   cin >> height;
@@ -68,6 +68,6 @@ int main()
   }
 
   printf("Your BMI is: %f\n", bmi);
-  printf("Which means: %s\n", category.c_str()); // coz we need to convert the string to a char array
+  printf("Which means: %s\n", category.c_str()); // Coz we need to convert the string to a char array
   return 0;
 }
