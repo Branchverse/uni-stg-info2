@@ -71,3 +71,17 @@ int main()
   printf("Which means: %s\n", category.c_str()); // Coz we need to convert the string to a char array
   return 0;
 }
+
+/* Resulting Dialog
+
+Please give me your weight in kg: 100
+Please give me your height in meters (e.g. 1.8): 180
+You are too tall for this program!
+Just kidding imma convert that stuff in meters assuming u gave me centimeters
+Your BMI is: 30.864198
+Which means: You are moderately obese
+
+Please give me your weight in kg: 333
+Please give me your height in meters (e.g. 1.8): 1.8
+You are either too tall, short, fat, skinny for this program!
+*/
