@@ -46,19 +46,19 @@ B=>A  - Tip of subtower 2 has to move away again
 B=>C  - Bottom of subtower n=2 can stack on top of maintower base
 A=>C  - Tip of subtower 2 comes to complete again
 
-A=>B
-A=>C
-B=>C
-A=>B
-C=>A
-C=>B
-A=>B
-A=>C
-B=>C
-B=>A
-C=>A
-B=>C
-A=>B
-A=>C
-B=>C
+A=>B  - 1 on empty
+A=>C  - 2 on empty
+B=>C  - 1 on 2
+A=>B  - 3 on empty
+C=>A  - 1 on 4
+C=>B  - 2 on 3
+A=>B  - 1 on 2
+A=>C  - 4 on empty
+B=>C  - 1 on 4
+B=>A  - 2 on empty
+C=>A  - 1 on 2
+B=>C  - 3 on 4
+A=>B  - 1 on empty
+A=>C  - 2 on 3
+B=>C  - 1 on 2
 */
