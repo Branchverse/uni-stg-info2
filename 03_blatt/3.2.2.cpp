@@ -5,7 +5,7 @@ int main()
 {
   // Calculation of polygon area with n sides
 
-  // Variables
+  // Variables with proper names so everyone understands what they are
   int n;
   double x, y, prevX, prevY, originX, originY, ongoingArea, currentArea = 0;
 
@@ -32,6 +32,7 @@ int main()
     prevY = y;
   }
 }
+
 // If you want to check and see ur polygon check out this site https://rechneronline.de/pi/simple-polygon.php
 
 /* Resulting Dialog
