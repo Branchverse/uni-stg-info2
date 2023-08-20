@@ -69,3 +69,38 @@ int main()
   cout << endl;
   return 1;
 }
+
+/* Resulting Dialog
+
+Enter a number: 5
+X X X X X
+
+X X X X X
+X X X X X
+X X X X X
+X X X X X
+X X X X X
+
+X
+X X
+X X X
+X X X X
+X X X X X
+
+     X
+    X X
+   X X X
+  X X X X
+ X X X X X
+
+    X X X X X
+  X X X X X X X
+X X X X X X X X X
+X X X X X X X X X
+X X X X X X X X X
+X X X X X X X X X
+X X X X X X X X X
+  X X X X X X X
+    X X X X X
+
+*/
