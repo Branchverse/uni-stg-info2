@@ -3,7 +3,8 @@ using namespace std;
 
 int counter = 1;
 void towerOfHanoi(int n, char start, char end, char help)
-{ // Comment for n=3
+{ // Order 1.-7. for n=3,
+  // Uncomment the couts to see the order of the moves
   if (n == 1)
   {
     // cout << "Move top piece to end" << endl;
@@ -37,13 +38,13 @@ A=>B
 A=>C
 B=>C
 
-A=>C
-A=>B
-C=>B
-A=>C
-B=>A
-B=>C
-A=>C
+A=>C  - Tip of subtower 2 has to move away
+A=>B  - Bottom of subtower n=2 has to move
+C=>B  - Tip of subtower 2 comes to complete
+A=>C  - Bottom of maintower n=3 has to move
+B=>A  - Tip of subtower 2 has to move away again
+B=>C  - Bottom of subtower n=2 can stack on top of maintower base
+A=>C  - Tip of subtower 2 comes to complete again
 
 A=>B
 A=>C
