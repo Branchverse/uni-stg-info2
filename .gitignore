@@ -1,4 +1,2 @@
-# This is to ignore files without extensions
-*
-!*.*
-!*/*
+# This is to ignore binary files
+*.bin
