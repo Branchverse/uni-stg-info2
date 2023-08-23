@@ -43,13 +43,13 @@ int main()
 
   swap(a, b);
   cout << endl
-       << "Main After Swap1: " << endl;
+       << "Main after Swap1: " << endl;
   cout << "a = " << a << ", b = " << b << endl;
   cout << endl;
 
   swap2(a, b);
   cout << endl
-       << "Main After Swap2: " << endl;
+       << "Main after Swap2: " << endl;
   cout << "a = " << a << ", b = " << b << endl;
   cout << endl;
 
@@ -70,13 +70,13 @@ Give 2 ENTER separated numbers:
 a = 1, b = 2 Swapping!!
 a = 2, b = 1
 
-Main After Swap1:
+Main after Swap1:
 a = 2, b = 1
 
 a = 2, b = 1 Swapping!!
 a = 1, b = 2
 
-Main After Swap2:
+Main after Swap2:
 a = 2, b = 1 => This is not swapped because we did a copy by value not copy by reference
                 Means, the numbers in the swap2 function are unrelated to those in the main function.
 
