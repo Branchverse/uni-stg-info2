@@ -43,8 +43,6 @@ int main() // Declare the main function (executed on start) as type `int`, meani
   cout << "Value of alsoValue: " << alsoValue << endl;  // This is still 5
   cout << "Value behind pointer: " << *pointer << endl; // This is the value that is pointed at
 
-  // CONCLUSION: We use the `&` to switch between the address and the value of a variable, we define a pointer with `*` to work with the address and a reference with `&` to work with the value
-
   // Functions and includes
   int number = factorial(5); // Calls the factorial function from factorial.h => using extra files and functions to reduce code bloat and duplication
   cout << number << endl;    // Prints the factorial
