@@ -41,9 +41,10 @@ int main()
   cout << "Your BMI is " << bmi << endl;
 
   // 2.
-
   string text = getBMI_text(bmi);
+  // string text2 = getBMI_text(getBMI(weight, height)); // Nested
   cout << text << endl;
+  // cout << text2 << endl;
 }
 
 /* Resulting Dialog
