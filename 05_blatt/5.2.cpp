@@ -42,14 +42,15 @@ int main()
   cout << endl;
 
   // Loop
+  // You don't really have to do it this dynamically
   int floors = 6;
   int layersPerFloor = 5;
-  int layerStartDiff = 2; // Means we start over on the 2nd +1 layer of the previous floor
+  int layerOffset = 2; // Means we start over on the 2nd +1 layer of the previous floor
   for (int floor = 0; floor < floors; floor++)
   {
-    int start = floor * layerStartDiff;
+    int start = floor * layerOffset;
     int end = start + layersPerFloor;
-    int spaceAmount = layerStartDiff * (floors - (floor + 1));
+    int spaceAmount = layerOffset * (floors - (floor + 1)); // Offset per layer * amount of floors left
     print_floor(start, end, spaceAmount);
   }
 
