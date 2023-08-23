@@ -22,18 +22,10 @@ void print_floor(int start, int end, int spaceAmount)
 {
   for (int i = start; i < end; i++)
   {
-    for (int j = 0; j < spaceAmount; j++)
-    {
+    for (int j = i + 1; j < end + spaceAmount; j++)
       cout << " ";
-    }
-    for (int j = 1; j < end - i; j++)
-    {
-      cout << " ";
-    }
     for (int j = 0; j < i + 1; j++)
-    {
       cout << "X ";
-    }
     cout << endl;
   }
 }
