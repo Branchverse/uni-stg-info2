@@ -12,6 +12,7 @@ int main()
   for (int i = 1; i < n; i++)
     if (*(arr + i) > *pointer)
       pointer = arr + i;
+
   int index = pointer - arr; // Because pointer is index amount higher than the start of the array
   cout << "Max value: " << *pointer << " at pointer: " << index << endl;
   return 0;
