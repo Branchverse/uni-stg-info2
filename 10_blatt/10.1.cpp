@@ -5,7 +5,7 @@ using namespace std;
 const int N = 50; // const means unchangeable, global coz it is outside of any scope
 
 // 2.
-class car
+class Car
 {
 public: // From outside accessable
   char name;
@@ -14,22 +14,22 @@ public: // From outside accessable
 };
 
 // 3.
-void print(car &car)
+void print(Car &Car)
 {
-  cout << "Name: " << car.name << ", position: " << car.position << ", speed: " << car.speed << endl;
+  cout << "Name: " << Car.name << ", position: " << Car.position << ", speed: " << Car.speed << endl;
 }
 
 // 4.
-void move(car &car)
+void move(Car &Car)
 {
-  car.position += car.speed;
-  car.position %= N;
+  Car.position += Car.speed;
+  Car.position %= N;
 }
 
 int main()
 {
   // 5.
-  car car1 = {'B', 2, 7};
+  Car car1 = {'B', 2, 7};
   print(car1);
 
   for (int i = 0; i < 10; i++)

@@ -11,6 +11,7 @@ public:
   int speed;
   void print();
   void move();
+  Car(char n = '*', int p = 0, int s = 0);
 };
 
 void Car::print()
@@ -24,10 +25,18 @@ void Car::move()
   position %= N;
 }
 
+Car::Car(char n, int p, int s)
+{
+  this->name = n;
+  this->position = p;
+  this->speed = s;
+}
+
 int main()
 {
   // 5.
-  Car car1 = {'B', 2, 7};
+  Car car1('B', 2, 7);
+  // Car car1 = {'B', 2, 7}; // C++11+ only
   car1.print();
 
   for (int i = 0; i < 10; i++)
