@@ -1,6 +1,6 @@
 # Info2 solutions for uni stg
 
-Currently highest completed: 8.2
+Currently highest completed: 9.1
 
 **Disclaimer:**
 
