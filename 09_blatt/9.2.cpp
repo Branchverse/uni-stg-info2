@@ -6,7 +6,7 @@ int main()
 {
   // 1.
   double n;
-  array<double, 100> arr;
+  double arr[100];
 
   // 2.
   cout << "Amount of numbers: ";
@@ -41,7 +41,7 @@ int main()
       index = i;
     }
   }
-  cout << "Max value: " << maxValue << "at index: " << index << endl;
+  cout << "Max value: " << maxValue << " at index: " << index << endl;
   return 0;
 }
 
@@ -55,5 +55,5 @@ Amount of numbers: 3
 3
 2
 Sum: 6
-Max value: 3at index: 1
+Max value: 3 at index: 1
 */
