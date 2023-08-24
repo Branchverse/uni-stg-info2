@@ -16,7 +16,7 @@ int main()
     return 1;
   }
 
-  while (in.good()) // starting with 1 coz we got origin points beforehand
+  while (in.good())
   {
     in >> x >> y; // This always reads the next two numbers
     cout << "Corner: " << x << "," << y << endl;
