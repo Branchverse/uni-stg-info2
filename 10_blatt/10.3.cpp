@@ -11,7 +11,7 @@ public:
   int speed;
   void print();
   void move();
-  Car(char n = '*', int p = 0, int s = 0);
+  Car(char name = '*', int position = 0, int speed = 0);
 };
 
 void Car::print()
@@ -25,11 +25,12 @@ void Car::move()
   position %= N;
 }
 
-Car::Car(char n, int p, int s)
+Car::Car(char name, int position, int speed)
 {
-  this->name = n;
-  this->position = p;
-  this->speed = s;
+  // You can use this-> with name ambiguities, here this-> points at the cars name
+  this->name = name;
+  this->position = position;
+  this->speed = speed;
 }
 
 int main()
