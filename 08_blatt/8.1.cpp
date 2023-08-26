@@ -17,13 +17,9 @@ int main()
   {
     i++;                     // Counting
     if (coolNumber % 2 == 0) // Module means what is the rest if I divide the number by 2
-    {
-      coolNumber /= 2; // operators like +=, -=, *=, /=, %= are calculation with immediate assignment
-    }
+      coolNumber /= 2;       // operators like +=, -=, *=, /=, %= are calculation with immediate assignment
     else
-    {
       coolNumber = 3 * coolNumber + 1;
-    }
 
     // Write to file
     file << i << " " << coolNumber << endl;
