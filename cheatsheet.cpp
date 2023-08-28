@@ -68,6 +68,12 @@ int main() // Has to be int! return 0 for success and anything else for failure
   }
   cout << endl;
 
+  // Looping to print vector stuff
+  for (int i = 0; i < vec.size(); i++)
+  {
+    cout << vec[i] << endl;
+  }
+
   // While loop
   int i = 0;     // initiate before
   while (i < 10) // does not repeat if i is 10 or bigger
@@ -180,3 +186,19 @@ int add(int *x, int *y) // Pointer, it is the address of the variable
   *x = 5;         // We can replace the originals value as well by dereferencing
   return *x + *y; // Dereference the pointer to get the value
 }
+
+/* Entire files output
+5 7 5 7 0x7fffffffd3dc
+11
+3
+1 2
+0123456789
+0123456789
+0123456789
+x is not 5 or 6
+x is checked again
+x is 1
+Name: Max, Age: 20, IBAN: 69
+Hello
+Enter a number: 3 <= This was an input
+*/
