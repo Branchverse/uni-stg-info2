@@ -1,6 +1,7 @@
 # Info2 solutions for uni stg
 
 Currently highest completed: 11.1
+Added: cheatsheet where basically everything should be understood by now.
 
 **Disclaimer:**
 
