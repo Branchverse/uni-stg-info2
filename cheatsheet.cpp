@@ -22,6 +22,12 @@ int main() // Has to be int! return 0 for success and anything else for failure
   char f = 'a';       // Character, 1 byte
   bool g = true;      // Boolean, 1 byte
 
+  // Primitive conversions
+  // Variables are castable meaning some can turn into others.
+  // For example can an integer of value 0 or 1+ be used as a boolean
+  // Thus a condition like ((1<2)<1) is valid and evaluates to false: 1<2 is true => (true<1) is false becase true == 1
+  // While ((1<2)<2) is also valid and would evaluate to true: 1<2 is true => (true<2) is true because true == 1
+
   // Complex types
   vector<int> vec;           // Vector of integers, size is not capped, vec.push_back(n) to add elements, needs <vector> library
   vec.size();                // Get the size of the vector
